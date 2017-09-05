@@ -87,7 +87,7 @@ if [ "$MODE" = "LTE" ]
 	  	  set2600
 	  ;;
 		ALL)
-		  echo "Reglage du modem sur LTE-2600."
+		  echo "Reglage du modem sur auto (toutes frequences)."
 	  	  setallfreq
 	  ;;
 		*)
